@@ -36,18 +36,4 @@ JOIN InvoiceLine il ON t.TrackId = il.TrackId
 GROUP BY g.Name
 ORDER BY TotalRevenue DESC;
 
-**2. What are the top 10 most purchased tracks by quantity?**
-```sql
-SELECT 
-    t.name AS Track,
-    SUM(il.Quantity) AS TotalSold
-FROM 
-    track t
-JOIN 
-   invoice_line il 
-   ON t.track_id = il.track_id
-GROUP BY 
-    t.Name
-ORDER BY 
-    TotalSold DESC
-LIMIT 10;
+
