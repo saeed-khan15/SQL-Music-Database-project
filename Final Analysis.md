@@ -71,10 +71,12 @@ This project investigates a music store database using **SQL (PostgreSQL)** to a
 - PostgreSQL / SQL
 - Data exploration, joins, aggregation, sorting
 - Entity-Relationship understanding and schema navigation
+- Power BI/visualization
 
 ---
 
 ## ✅ Summary
 
-This analysis demonstrates how SQL can be used to extract valuable business insights from a normalized music store database. It highlights customer preferences, revenue patterns, and content performance to inform strategic decisions.
+This analysis demonstrates how SQL can be used to extract valuable business insights from a normalized music store database. 
+It highlights customer preferences, revenue patterns, and content performance to inform strategic decisions.
 
